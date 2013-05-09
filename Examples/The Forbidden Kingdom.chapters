@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<chapterInfo xml:lang="eng" version="2" xmlns="http://jvance.com/2008/ChapterGrabber">
+  <title>The Forbidden Kingdom</title>
+  <source>
+    <name>Z:\BD\FORBIDDENKINGDOM\FORBIDDENKINGDOM\BDMV\PLAYLIST\00006.mpls</name>
+    <type>Blu-Ray</type>
+    <hash>76624e673e1631c619a3af9c1a91f643</hash>
+    <fps>23.976023976023978</fps>
+    <duration>01:44:26.3016888</duration>
+  </source>
+  <chapters>
+    <chapter time="00:00:00" name="Warrior Dreams" />
+    <chapter time="00:04:15.4320000" name="Ancient Sword" />
+    <chapter time="00:08:36.4320000" name="Rightful Owner" />
+    <chapter time="00:13:15.4320000" name="Helping Hand" />
+    <chapter time="00:13:25.2830000" name="Drunker Rescue" />
+    <chapter time="00:19:13.1520000" name="A Duel" />
+    <chapter time="00:22:45.8560000" name="&quot;How's Your Kung Fu&quot;" />
+    <chapter time="00:27:29.8560000" name="Teach Me" />
+    <chapter time="00:36:53.5863555" name="Jet And Jackie" />
+    <chapter time="00:45:04.6602888" name="Home" />
+    <chapter time="00:50:27.5244888" name="Two Tigers" />
+    <chapter time="00:54:06.9520222" name="Don't Forget" />
+    <chapter time="00:59:50.6704000" name="The Monastary" />
+    <chapter time="01:04:47.2583555" name="Monkey King's Turn" />
+    <chapter time="01:09:44.5970666" name="&quot;What's wrong?&quot;" />
+    <chapter time="01:14:07.6515333" name="On the Job" />
+    <chapter time="01:21:14.5363333" name="End of Shift" />
+    <chapter time="01:28:23.4231111" name="Back In the USA" />
+    <chapter time="01:32:19.1586222" name="Credits" />
+  </chapters>
+</chapterInfo>

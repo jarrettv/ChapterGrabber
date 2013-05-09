@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<chapterInfo xml:lang="eng" version="2" xmlns="http://jvance.com/2008/ChapterGrabber">
+  <title>Nacho Libre</title>
+  <source>
+    <name>F:\DVD\NACHO_LIBRE\VIDEO_TS\VTS_0_0.IFO</name>
+    <type>DVD</type>
+    <hash>08b6a5035d149b0878fc291dcef845e9</hash>
+    <fps>29.970029970029973</fps>
+    <duration>01:31:56.0110000</duration>
+  </source>
+  <chapters>
+    <chapter time="00:00:00" name="Especially Delicious" />
+    <chapter time="00:04:47.3680000" name="Sister Encarnaci" />
+    <chapter time="00:07:02.0350000" name="Orphan's Chips" />
+    <chapter time="00:11:30.5020000" name="Toast" />
+    <chapter time="00:15:26.0360000" name="Where Are the Chips?" />
+    <chapter time="00:18:11.1690000" name="Taste the Glory" />
+    <chapter time="00:22:50.8360000" name="Nacho Y Esqueleto" />
+    <chapter time="00:25:28.6700000" name="Stretchy Pants" />
+    <chapter time="00:29:05.3370000" name="I Only Believe in Science" />
+    <chapter time="00:33:31.0380000" name="My Life Is Good" />
+    <chapter time="00:37:30.0380000" name="Recreation Clothes" />
+    <chapter time="00:39:45.0060000" name="Magical Powers" />
+    <chapter time="00:43:31.3730000" name="Eagle Powers" />
+    <chapter time="00:46:20.1740000" name="Frilly Shirt &amp; Slacks" />
+    <chapter time="00:50:10.3410000" name="Singing at the Party" />
+    <chapter time="00:55:55.7080000" name="Sucks to Be Me" />
+    <chapter time="01:00:40.5080000" name="Nachoooo!" />
+    <chapter time="01:06:44.0080000" name="Lucky Machete" />
+    <chapter time="01:13:01.8760000" name="Little Kiss" />
+    <chapter time="01:17:09.1760000" name="Big Match" />
+    <chapter time="01:24:50.6770000" name="Thumbs Up" />
+    <chapter time="01:26:23.3440000" name="End Credits" />
+  </chapters>
+</chapterInfo>

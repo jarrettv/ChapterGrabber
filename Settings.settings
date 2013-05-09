@@ -1,0 +1,92 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="JarrettVance.ChapterTools" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ImportDurations" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="IgnoreShortLastChapter" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RecentFiles" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FpsValues" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;24000/1001&lt;/string&gt;
+  &lt;string&gt;24&lt;/string&gt;
+  &lt;string&gt;25&lt;/string&gt;
+  &lt;string&gt;30000/1001&lt;/string&gt;
+  &lt;string&gt;30&lt;/string&gt;
+  &lt;string&gt;50&lt;/string&gt;
+  &lt;string&gt;60000/1001&lt;/string&gt;
+  &lt;string&gt;60&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="DefaultFps" Type="System.Double" Scope="Application">
+      <Value Profile="(Default)">29.970029970029973</Value>
+    </Setting>
+    <Setting Name="MaxRecentFiles" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="ShortChapterSeconds" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="ConfigVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4.5</Value>
+    </Setting>
+    <Setting Name="LastSaveExt" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.chapters</Value>
+    </Setting>
+    <Setting Name="DefaultLangCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">eng</Value>
+    </Setting>
+    <Setting Name="LangValues" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;chi&lt;/string&gt;
+  &lt;string&gt;dut&lt;/string&gt;
+  &lt;string&gt;eng&lt;/string&gt;
+  &lt;string&gt;fin&lt;/string&gt;
+  &lt;string&gt;fre&lt;/string&gt;
+  &lt;string&gt;ger&lt;/string&gt;
+  &lt;string&gt;ita&lt;/string&gt;
+  &lt;string&gt;jpn&lt;/string&gt;
+  &lt;string&gt;nor&lt;/string&gt;
+  &lt;string&gt;por&lt;/string&gt;
+  &lt;string&gt;ita&lt;/string&gt;
+  &lt;string&gt;rus&lt;/string&gt;
+  &lt;string&gt;spa&lt;/string&gt;
+  &lt;string&gt;swe&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="LastOpenDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastSaveFilterIndex" Roaming="true" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="AutoCheckForUpdate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RemoteManifest" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://jvance.com/files/ChapterGrabber.manifest</Value>
+    </Setting>
+    <Setting Name="AutoUseDatabase" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DatabaseSite" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://chapterdb.org</Value>
+    </Setting>
+    <Setting Name="DatabaseApiKey" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)">a784c7d08e5fe192ca247d1a2dd5c27f</Value>
+    </Setting>
+    <Setting Name="WarnInvalidTitle" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="QuickOpenDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

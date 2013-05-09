@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CA7A6315-94D9-4070-9C1A-B59CDB8A1CA8}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ChapterGrabber</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>JarrettVance.ChapterTools</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>JarrettVance.ChapterTools.Program</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>ftp://ftp.jvance.com/wwwroot/files/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://jvance.com/files/</InstallUrl>
+    <SupportUrl>http://jvance.com/pages/ChapterGrabber.xhtml</SupportUrl>
+    <ErrorReportUrl>http://jvance.com/pages/ChapterGrabber.xhtml</ErrorReportUrl>
+    <TargetCulture>en</TargetCulture>
+    <ProductName>ChapterGrabber</ProductName>
+    <PublisherName>JVance Software</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>13</ApplicationRevision>
+    <ApplicationVersion>3.9.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D4701572991CB767CB6F53E9BF0E23762034B7C2</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ChapterGrabber_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helpers.cs" />
+    <Compile Include="SearchResultItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SearchResultItem.Designer.cs">
+      <DependentUpon>SearchResultItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelayForm.Designer.cs">
+      <DependentUpon>DelayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiscItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DiscItem.Designer.cs">
+      <DependentUpon>DiscItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pathing\FileNameUtils.cs" />
+    <Compile Include="QuickSaveDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickSaveDialog.Designer.cs">
+      <DependentUpon>QuickSaveDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pathing\VolumeInfo.cs" />
+    <Compile Include="QuickOpenDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickOpenDialog.Designer.cs">
+      <DependentUpon>QuickOpenDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseCredentialsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatabaseCredentialsDialog.Designer.cs">
+      <DependentUpon>DatabaseCredentialsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grabbers\DatabaseGrabber.cs" />
+    <Compile Include="Updater.cs" />
+    <Compile Include="ErrorItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ErrorItem.Designer.cs">
+      <DependentUpon>ErrorItem.cs</DependentUpon>
+    </Compile>
+    <Content Include="Icon.ico" />
+    <Content Include="Readme.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="ChapterGrabber.cs" />
+    <Compile Include="Extractors\BDInfo\LanguageCodes.cs" />
+    <Compile Include="Extractors\BDInfoExtractor.cs" />
+    <Compile Include="Extractors\BDInfo\TSPlaylistFile.cs" />
+    <Compile Include="Extractors\BDInfo\TSStream.cs" />
+    <Compile Include="Extractors\BDInfo\TSStreamClip.cs" />
+    <Compile Include="Extractors\BDInfo\TSStreamClipFile.cs" />
+    <Compile Include="Extractors\HddvdExtractor.cs" />
+    <Compile Include="Extractors\XplExtractor.cs" />
+    <Compile Include="AboutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutDialog.Designer.cs">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChapterEntry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Extractors\BlurayExtractor.cs" />
+    <Compile Include="Extractors\Ifo2Extractor.cs" />
+    <Compile Include="Extractors\DvdExtractor.cs" />
+    <Compile Include="Extractors\Eac3toExtractor.cs" />
+    <Compile Include="Extractors\IfoUtil.cs" />
+    <Compile Include="Extractors\MplsExtractor.cs" />
+    <Compile Include="Extractors\TextExtractor.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StreamSelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StreamSelectDialog.Designer.cs">
+      <DependentUpon>StreamSelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateForm.Designer.cs">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grabber.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChapterExtractor.cs" />
+    <Compile Include="ChapterInfo.cs" />
+    <Compile Include="Grabbers\TagChimpGrabber.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Pathing\BasePath.cs" />
+    <Compile Include="Pathing\DirectoryPath.cs" />
+    <Compile Include="Pathing\DirectoryPathAbsolute.cs" />
+    <Compile Include="Pathing\DirectoryPathRelative.cs" />
+    <Compile Include="Pathing\FilePath.cs" />
+    <Compile Include="Pathing\FilePathAbsolute.cs" />
+    <Compile Include="Pathing\FilePathRelative.cs" />
+    <Compile Include="Pathing\InternalStringHelper.cs" />
+    <Compile Include="Pathing\ListOfPathHelper.cs" />
+    <Compile Include="Pathing\PathHelper.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Content Include="ChapterGrabber.manifest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="SearchResultItem.resx">
+      <DependentUpon>SearchResultItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelayForm.resx">
+      <DependentUpon>DelayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorItem.resx">
+      <DependentUpon>ErrorItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Resources\star.png" />
+    <None Include="Resources\arrow_up.png" />
+    <None Include="Resources\arrow_down.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\tag_green.png" />
+    <None Include="Resources\database_key.png" />
+    <None Include="Resources\disc.png" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\CD.png" />
+    <None Include="Resources\world.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\disk.png" />
+    <None Include="Resources\accept.png" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\Bluray.png" />
+    <None Include="Resources\DVD.png" />
+    <None Include="Resources\HDDVD.png" />
+    <None Include="Resources\50 %283%29.png" />
+    <None Include="Resources\attn.png" />
+    <Content Include="Updater.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="AboutDialog.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiscItem.resx">
+      <DependentUpon>DiscItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickSaveDialog.resx">
+      <DependentUpon>QuickSaveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickOpenDialog.resx">
+      <DependentUpon>QuickOpenDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabaseCredentialsDialog.resx">
+      <DependentUpon>DatabaseCredentialsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StreamSelectDialog.resx">
+      <DependentUpon>StreamSelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateForm.resx">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FileAssociation Include=".chapters">
+      <Visible>False</Visible>
+      <Description>Video Chapters</Description>
+      <Progid>application/xml+chapters</Progid>
+      <DefaultIcon>Icon.ico</DefaultIcon>
+    </FileAssociation>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
