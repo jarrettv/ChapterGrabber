@@ -34,6 +34,7 @@ using System.Xml.Linq;
 using BDInfo;
 using JarrettVance.ChapterTools.Extractors;
 using JarrettVance.ChapterTools.Grabbers;
+using JarrettVance.ChapterTools.Properties;
 using NDepend.Helpers.FileDirectoryPath;
 
 namespace JarrettVance.ChapterTools
@@ -53,28 +54,29 @@ namespace JarrettVance.ChapterTools
 
     private void frmMain_Load(object sender, System.EventArgs e)
     {
+        FontHelper.RegisterFont(Resources.fontawesome_webfont);
       this.Height = Math.Min(560, Screen.GetWorkingArea(this).Height - 30);
       this.listChapters.Columns.Add("Time", 80, HorizontalAlignment.Left);
       this.listChapters.Columns.Add("Name", 190, HorizontalAlignment.Left);
       //this.listChapters.Columns[1].AutoResize(ColumnHeaderAutoResizeStyle.ColumnContent);
 
-      try
-      {
-        //when using new version, upgrade settings
-        var nfi = new NumberFormatInfo();
-        object lastConfigVersion = Settings.Default.GetPreviousVersion("ConfigVersion");
-        if (lastConfigVersion != null && Convert.ToDouble(lastConfigVersion.ToString(), nfi) <
-          Convert.ToDouble(Settings.Default.ConfigVersion, nfi))
-        {
-          Trace.WriteLine("Upgrading settings from previous version.");
-          Settings.Default.Upgrade();
-          Settings.Default.Save();
-        }
-      }
-      catch (Exception ex)
-      {
-        Trace.WriteLine(ex);
-      }
+      //try
+      //{
+      //  //when using new version, upgrade settings
+      //  var nfi = new NumberFormatInfo();
+      //  object lastConfigVersion = Settings.Default.GetPreviousVersion("ConfigVersion");
+      //  if (lastConfigVersion != null && Convert.ToDouble(lastConfigVersion.ToString(), nfi) <
+      //    Convert.ToDouble(Settings.Default.ConfigVersion, nfi))
+      //  {
+      //    Trace.WriteLine("Upgrading settings from previous version.");
+      //    Settings.Default.Upgrade();
+      //    //Settings.Default.Save();
+      //  }
+      //}
+      //catch (Exception ex)
+      //{
+      //  Trace.WriteLine(ex);
+      //}
 
       if (Settings.Default.RecentFiles == null)
         Settings.Default.RecentFiles = new StringCollection();

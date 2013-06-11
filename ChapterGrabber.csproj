@@ -144,6 +144,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FontHelper.cs" />
     <Compile Include="Helpers.cs" />
     <Compile Include="SearchResultItem.cs">
       <SubType>UserControl</SubType>
@@ -263,9 +264,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Settings.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -284,6 +282,7 @@
     <EmbeddedResource Include="ErrorItem.resx">
       <DependentUpon>ErrorItem.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Resources\fontawesome-webfont.ttf" />
     <None Include="Resources\star.png" />
     <None Include="Resources\arrow_up.png" />
     <None Include="Resources\arrow_down.png" />

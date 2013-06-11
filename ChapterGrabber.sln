@@ -1,6 +1,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CBDD9E14-DB01-4A87-8579-A3A1879C4EAE}"
+	ProjectSection(SolutionItems) = preProject
+		FontHelper.cs = FontHelper.cs
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterGrabber", "ChapterGrabber.csproj", "{CA7A6315-94D9-4070-9C1A-B59CDB8A1CA8}"
 EndProject
@@ -44,7 +47,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		XCSharpSolutionEnabled = True
 		XCSharpProjectsDisabled = 
+		XCSharpSolutionEnabled = True
 	EndGlobalSection
 EndGlobal
